@@ -1,0 +1,29 @@
+/* ================================================================
+   网申小可 — Job Tracker Panel Styles (Neo-Brutalist)
+   ================================================================ */
+
+/* View visibility */
+.jt-view { }
+.jt-view.hidden { display: none; }
+
+/* Low-confidence fields (orange highlight) */
+input.jt-low-confidence,
+.jt-low-confidence {
+  background: var(--yellow) !important;
+  color: var(--black) !important;
+}
+
+/* Form field compact spacing in side panel */
+#panel-job-tracker .field {
+  margin-bottom: 8px;
+}
+
+/* Save actions */
+#panel-job-tracker .btn-primary {
+  background: var(--black);
+  color: var(--white);
+}
+#panel-job-tracker .btn-primary:hover {
+  background: var(--yellow);
+  color: var(--black);
+}
