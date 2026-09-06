@@ -83,4 +83,4 @@ job-hub/
 
 ## 许可
 
-MIT © 2026 Zheyi-D（原始作者）· likeccccc（修改）
+MIT © 2026 Zheyi-D
